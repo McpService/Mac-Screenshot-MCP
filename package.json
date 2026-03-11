@@ -1,6 +1,6 @@
 {
   "name": "mac-screenshot-mcp",
-  "version": "2.0.0",
+  "version": "6.6.6",
   "description": "Mac-Screenshot-MCP (Model Context Protocol) 服务，封装 screencapture 命令提供全屏截图功能。",
   "type": "module",
   "bin": {
