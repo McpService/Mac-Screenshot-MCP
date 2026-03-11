@@ -1,7 +1,7 @@
 {
   "name": "mac-screenshot-mcp",
-  "version": "1.0.1",
-  "description": "macOS 截图 MCP 服务，封装 screencapture 命令",
+  "version": "2.0.0",
+  "description": "Mac-Screenshot-MCP (Model Context Protocol) 服务，封装 screencapture 命令提供全屏截图功能。",
   "type": "module",
   "bin": {
     "mac-screenshot-mcp": "src/index.js"

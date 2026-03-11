@@ -1,14 +1,7 @@
-# mac-screenshot-mcp
+# Mac-Screenshot-MCP
 
-macOS 截图 MCP 服务，封装 macOS 的 `screencapture` 命令，提供全屏截图功能。
+Mac-Screenshot-MCP (Model Context Protocol) 服务，封装 screencapture 命令提供全屏截图功能。
 
-## 安装
-
-```bash
-npm install -g mac-screenshot-mcp
-```
-
-## 使用
 
 ### 在 MCP Client 中配置
 
@@ -17,21 +10,9 @@ npm install -g mac-screenshot-mcp
 ```json
 {
   "mcpServers": {
-    "mac-screenshot": {
+    "Mac-Screenshot-MCP": {
       "command": "npx",
       "args": ["-y", "mac-screenshot-mcp"]
-    }
-  }
-}
-```
-
-或者直接调用：
-
-```json
-{
-  "mcpServers": {
-    "mac-screenshot": {
-      "command": "mac-screenshot-mcp"
     }
   }
 }
@@ -93,19 +74,6 @@ npm install -g mac-screenshot-mcp
 
 中授予终端或你的 MCP Client 屏幕录制权限。
 
-## 开发
-
-```bash
-# 克隆项目
-git clone https://github.com/HammCn/mac-screenshot-mcp.git
-cd mac-screenshot-mcp
-
-# 安装依赖
-npm install
-
-# 本地测试
-npm start
-```
 
 ## License
 
