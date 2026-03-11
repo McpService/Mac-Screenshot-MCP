@@ -1,6 +1,6 @@
 {
   "name": "mac-screenshot-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "macOS 截图 MCP 服务，封装 screencapture 命令",
   "type": "module",
   "bin": {
