@@ -4,7 +4,7 @@
   "description": "macOS 截图 MCP 服务，封装 screencapture 命令",
   "type": "module",
   "bin": {
-    "mac-screenshot-mcp": "./src/index.js"
+    "mac-screenshot-mcp": "src/index.js"
   },
   "files": [
     "src"
